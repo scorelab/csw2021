@@ -41,7 +41,7 @@
 
  <!-- Navigation Start -->
 
- <header class="header-bar">
+ <header class="header-bar" style="position: sticky; top: 0; z-index: 100; background-color: white; box-shadow: 0 10px 20px -20px rgba(0,0,0,.5);">
  	<nav class="navbar navbar-expand-lg main-nav">
  		<div class="container">
  			<!--      LOGO BAR     -->
@@ -58,8 +58,11 @@
  			<!--  MAIN MENU  -->
  			<div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
  				<ul class="navbar-nav mx-auto" style="margin-right: 0% !important;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
  					<li class="nav-item">
- 						<a class="nav-link" href="index.html">eCSW Conference</a>
+ 						<a class="nav-link" href="index.html">Conference Schedule</a>
  					</li>
  					<li class="nav-item">
  						<a class="nav-link" href="speaker.html">Hacking Challenge</a>
@@ -159,7 +162,7 @@
 						<h2 class="text-lg mb-3 mt-3">The New Era of Tech Companies </h2>
 						<p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursusa sit nibh vel velit.</p>
 
-						<a href="#" class="btn btn-hero btn-rounded mt-3">Discover More </a>
+						<!-- <a href="#" class="btn btn-hero btn-rounded mt-3">Discover More </a> -->
 					</div>
 				</div>
 			</div>
@@ -171,22 +174,22 @@
 		<div class="row align-items-center">
 			<div class="col-lg-7">
 				<div class="cta-content">
-					<span class="lead">10% Sale offer for early birds</span>
-					<h2 class="mt-3 mb-4 text-md">Meet top <span class="text-color">digital masters </span> <br>& influencers in a unique <span class="text-color">3-days</span> experience.</h2>
+					<span class="lead">The most awaited</span>
+					<h2 class="mt-3 mb-4 text-md">eCSW <span class="text-color">Hacking Challenge </span> <br>is back!</h2>
 
-					<a href="#" class="btn btn-secondary btn-rounded">Get ticket</a>
+					<a href="#" class="btn btn-secondary btn-rounded">Enter the Hacking Challenge!</a>
 				</div>
 			</div>
 
 			<div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
-				<img src="images/banner/rev-slider-09.png" alt="" class="img-fluid">
+				<img src="images/banner/rev-slider-10.png" alt="" class="img-fluid">
 			</div>
 		</div>
 	</div>
 </section>
 
 <!-- Section START-->
-<section id="section-feature" class="section-bottom" >
+<!-- <section id="section-feature" class="section-bottom" >
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -217,7 +220,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Section END-->
 
 <section class="section-schedule section-bottom ">
@@ -240,50 +243,39 @@
       <div class="col-lg-12">
         <nav class="nav nav-pills nav-fill" id="TopicTab" role="tablist">
           <a class="nav-item nav-link active" id="home-tab" data-toggle="tab" href="#day1" role="tab"
-            aria-controls="home" aria-selected="true">
+            aria-controls="day1" aria-selected="true">
             <h2>Day 1</h2>
             <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
           </a>
 
           <a class="nav-item nav-link" id="profile-tab" data-toggle="tab" href="#day2" role="tab"
-            aria-controls="profile" aria-selected="false">
+            aria-controls="day2" aria-selected="false">
             <h2>Day 2</h2>
             <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
           </a>
 
           <a class="nav-item nav-link" id="contact-tab" data-toggle="tab" href="#day3" role="tab"
-            aria-controls="contact" aria-selected="false">
+            aria-controls="day3" aria-selected="false">
             <h2>Day 3</h2>
             <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
           </a>
 
           <a class="nav-item nav-link" id="home-tab" data-toggle="tab" href="#day4" role="tab"
-            aria-controls="home" aria-selected="true">
-            <h2>Day 1</h2>
+            aria-controls="day4" aria-selected="false">
+            <h2>Day 4</h2>
             <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
           </a>
 
           <a class="nav-item nav-link" id="profile-tab" data-toggle="tab" href="#day5" role="tab"
-            aria-controls="profile" aria-selected="false">
-            <h2>Day 2</h2>
+            aria-controls="day5" aria-selected="false">
+            <h2>Day 5</h2>
             <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
           </a>
 
-          <a class="nav-item nav-link" id="contact-tab" data-toggle="tab" href="#day6" role="tab"
-            aria-controls="contact" aria-selected="false">
-            <h2>Day 3</h2>
-            <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
-          </a>
-
-          <a class="nav-item nav-link" id="contact-tab" data-toggle="tab" href="#day7" role="tab"
-            aria-controls="contact" aria-selected="false">
-            <h2>Day 3</h2>
-            <p>13 Nov ,2019 [09.00am - 04.00pm]</p>
-          </a>
         </nav>
 
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="home-tab">
+          <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
 
             <ul class="mt-5 time-table pl-0 list-unstyled">
               <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
@@ -335,7 +327,7 @@
             </ul>
           </div>
 
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
 
             <ul class="mt-5 time-table pl-0 list-unstyled">
               <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
@@ -388,7 +380,7 @@
             </ul>
           </div>
 
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
             <ul class="mt-5 time-table pl-0 list-unstyled">
               <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
                 <h4 class="time text-color">9.00am</h4>
@@ -437,91 +429,116 @@
               </li>
             </ul>
           </div>
+
+          <div class="tab-pane fade" id="day4" role="tabpanel" aria-labelledby="day4-tab">
+            <ul class="mt-5 time-table pl-0 list-unstyled">
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">9.00am</h4>
+                <div class="content">
+                  <h3 class="mb-3">Marketing Matters in design area</h3>
+                  <span class="h6">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/big-data.png" alt="" class="img-fluid">
+                </div>
+              </li>
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">12.20pm</h4>
+                <div class="content">
+                  <h3 class="mb-3">Introduction of material Design</h3>
+                  <span class="h6 ">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/wordpress.png" alt="" class="img-fluid">
+                </div>
+              </li>
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">2.00pm</h4>
+                <div class="content">
+                  <h3 class="mb-3">Launch Break</h3>
+                  <p>Doloribus veritatis, placeat, laborum amet voluptates cupiditate sapiente, reiciendis nemo
+                    recusandae quo mollitial.</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/lunch.jpg" alt="" class="img-fluid">
+                </div>
+              </li>
+
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 ">
+                <h4 class="time text-color">02.40pm</h4>
+                <div class="content">
+                  <h3 class="mb-3 ">Cultures of Creativity</h3>
+                  <span class="h6">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/creativity.jpg" alt="" class="img-fluid">
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-pane fade" id="day5" role="tabpanel" aria-labelledby="day5-tab">
+            <ul class="mt-5 time-table pl-0 list-unstyled">
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">9.00am</h4>
+                <div class="content">
+                  <h3 class="mb-3">Marketing Matters in design area</h3>
+                  <span class="h6">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/big-data.png" alt="" class="img-fluid">
+                </div>
+              </li>
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">12.20pm</h4>
+                <div class="content">
+                  <h3 class="mb-3">Introduction of material Design</h3>
+                  <span class="h6 ">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/wordpress.png" alt="" class="img-fluid">
+                </div>
+              </li>
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <h4 class="time text-color">2.00pm</h4>
+                <div class="content">
+                  <h3 class="mb-3">Launch Break</h3>
+                  <p>Doloribus veritatis, placeat, laborum amet voluptates cupiditate sapiente, reiciendis nemo
+                    recusandae quo mollitial.</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/lunch.jpg" alt="" class="img-fluid">
+                </div>
+              </li>
+
+              <li class="d-md-flex align-items-center justify-content-between bg-light p-4 ">
+                <h4 class="time text-color">02.40pm</h4>
+                <div class="content">
+                  <h3 class="mb-3 ">Cultures of Creativity</h3>
+                  <span class="h6">By Risabh moinul</span>
+                  <p>CEo of themefisher</p>
+                </div>
+                <div class="content-img text-lg-right">
+                  <img src="images/about/creativity.jpg" alt="" class="img-fluid">
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          
+
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="section section-pricing">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="heading mb-5">
-          <span class="stroke-text">Price</span>
-          <div class="pl-90">
-            <h2 class="text-white mt-3"> Get your Ticket</h2>
-            <p class="text-white-50">Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non
-              veritatis optio.</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-
-    <div class="row justify-content-center align-items-center">
-      <div class="col-lg-4 col-md-6">
-        <div class="package style-1 bg-white mb-5 mb-lg-0">
-          <div class="price-header mb-4">
-            <i class="tf-ion-android-bulb"></i>
-            <h2 class="mt-4 text-white">70$</h2>
-          </div>
-          <h6 class="pname">Early</h6>
-          <ul class="list-unstyled ">
-            <li>Two Days Ticket</li>
-            <li>Coffee & Launch</li>
-            <li>Networking</li>
-            <li>Certificate</li>
-            <li>Gift Box</li>
-            <li>Email listing</li>
-          </ul>
-          <a href="#" class="btn btn-hero btn-rounded mt-3 mb-5">Get now</a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="package  style-2 bg-white mb-5 mb-lg-0">
-          <div class="price-header mb-4">
-            <i class="tf-ion-android-hangout"></i>
-            <h2 class="mt-4 text-white">250$</h2>
-          </div>
-          <h6 class="pname">Team</h6>
-          <ul class="list-unstyled">
-            <li>Two Days Ticket</li>
-            <li>Coffee & Launch</li>
-            <li>Networking</li>
-            <li>Certificate</li>
-            <li>Gift Box</li>
-            <li>Public ad listing</li>
-            <li>Email listing</li>
-          </ul>
-          <a href="#" class="btn btn-secondary btn-rounded mt-3 mb-5">Get now</a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6">
-        <div class="package  bg-white style-3 mb-5 mb-lg-0">
-          <div class="price-header mb-4">
-            <i class="tf-ion-android-person"></i>
-            <h2 class="mt-4 text-white">300$</h2>
-          </div>
-          <h6 class="pname">Economic</h6>
-          <ul class="list-unstyled">
-            <li>Three Days Ticket</li>
-            <li>Coffee & Launch</li>
-            <li>Networking</li>
-            <li>Certificate</li>
-            <li>Gift Box</li>
-            <li>Company Listing</li>
-            <li>Dinner Serve</li>
-            <li>Email listing</li>
-          </ul>
-          <a href="#" class="btn btn-secondary btn-rounded mt-3 mb-5">Get now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section-speaker section">
+<!-- <section class="section-speaker section">
 	<div class="container">
 		<div class="row section-heading">
 			<div class="col-lg-6">
@@ -642,7 +659,8 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
+
 <!-- Section Start -->
 <section class="section sponsors">
     <div class="container">
@@ -651,7 +669,7 @@
                 <div class="heading">
                     <span class="stroke-text">Sponsors</span>
                     <div class="pl-90">
-                        <h2 class="">Amazing Partners & Sponsors </h2>
+                        <h2 class="">Our Amazing Sponsors </h2>
                     </div>
                 </div>
             </div>
@@ -716,14 +734,14 @@
             </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <br>
                 <br>
                 <h5 class="mt-5 mb-4 h3">Want to be a sponsor ? </h5>
                 <a href="#" class="btn btn-hero btn-rounded">apply now</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- Section END -->
@@ -733,71 +751,22 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="cta-img">
-					<img src="images/bg/cta-bg.jpg" alt="" class="img-fluid">
+					<img src="images/bg/video.jpg" alt="" class="img-fluid">
+          <!-- <a href='https://www.freepik.com/vectors/business'>Business vector created by upklyak - www.freepik.com</a> -->
 					<div class="contact-info box-shadow">
-						<h5 class="text-uppercase letter-spacing mb-4">Venue location</h5>
-						<h6 class="text-color mb-3">18 - 21 December, 2019 </h6>	
-						<p class="lead">85 Golden Street, Darlinghurst <br>ERP 2019, United States </p>
-						<a href="contact.html"><i class="tf-ion-ios-location mr-2"></i>View Map location</a>
+						<h5 class="text-uppercase letter-spacing mb-4">Virtual Venue</h5>
+						<h6 class="text-color mb-3">19 - 23 October, 2021 </h6>	
+						<p class="lead">Platform Name</p>
+						<!-- <a href="contact.html"><i class="tf-ion-ios-location mr-2"></i>View Map location</a> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="latest-blog section-bottom mt-5 mt-lg-0">
-	<div class="container">
-		 <div class="row section-heading">
-            <div class="col-lg-6">
-                <div class="heading">
-                    <span class="stroke-text">News</span>
-                    <div class="pl-90">
-                        <h2 class=""> Latest News update</h2>
-                        <p>Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</div>
 
-	<div class="container">
-		<div class="row">
-        	<div class="col-lg-4 col-md-6 col-sm-6">
-        		<div class="blog-item card border-0 mb-5 mb-lg-0">
-        			<img src="images/blog/blog-img-1.jpg" alt="" class="img-fluid">
+<br><br><br>
 
-        			<div class="p-4">
-        				<h4 class="mt-2 mb-3"><a href="#">Why lead generation is key for business growth</a></h4>
-	        			<p>Illum delectus quidem nobis, impedit soluta mollitia dignissimos error.</p>
-	        			<a href="#" class="read-more text-color h6">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-
-        	<div class="col-lg-4 col-md-6 col-sm-6">
-        		<div class="blog-item card border-0 mb-5 mb-lg-0">
-        			<img src="images/blog/blog-img-2.jpg" alt="" class="img-fluid">
-        			<div class="p-4">
-        				<h4 class="mt-2 mb-3"><a href="#">How to visualizze your idea in design</a></h4>
-	        			<p>Illum delectus quidem nobis, impedit soluta mollitia dignissimos error.</p>
-	        			<a href="#" class="read-more text-color h6">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-
-        	<div class="col-lg-4 col-md-6  col-sm-6">
-        		<div class="blog-item card border-0 mb-5 mb-lg-0">
-        			<img src="images/blog/blog-img-3.jpg" alt="" class="img-fluid">
-        			<div class="p-4">
-        				<h4 class="mt-2 mb-3"><a href="#">Next venue in san farnscicos can join</a></h4>
-	        			<p>Illum delectus quidem nobis, impedit soluta mollitia dignissimos error.</p>
-	        			<a href="#" class="read-more text-color h6">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-		</div>
-	</div>
-</section>
 <section class="footer section">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -806,27 +775,21 @@
 				</h2> -->
         <img style="max-width: 50%;" src="images/certlogowhite.png" alt="CERT Logo">
         <br><br>
-				<p class="text-white-50">We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve. </p>
-
-				<form action="#" class="sub-form mt-4 mb-3">
-					<input type="text" class="form-control" placeholder="Put your email address">
-					<a href="#" class="btn btn-secondary btn-rounded mt-3">Subscribe now</a>
-				</form>
-				<p class="mt-3 text-white-50">We will not spam at your inbox .Don't panic</p>
+				<p class="text-white-50">Sri Lanka Computer Emergency Readiness Team | Coordination Centre</p>
 
 				<ul class="list-inline footer-socails">
-					<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="tf-ion-social-pinterest"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="tf-ion-social-rss"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/CERT.lk/"><i class="tf-ion-social-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/SriLankaCERT_CC"><i class="tf-ion-social-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/company/sri-lanka-cert-cc/"><i class="tf-ion-social-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.youtube.com/channel/UC2cWWUUkCIlPzPACw-APVMQ"><i class="tf-ion-social-youtube"></i></a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-lg-12 text-center mt-5 ">
-				<p class="copy border-top pt-4 text-white-50 mb-0">Copyright ©2021 All rights reserved | Sri Lanka CERT</p>
+				<p class="copy border-top pt-4 text-white-50 mb-0">Sri Lanka CERT|CC 2021. All Rights Reserved.</p>
+        <p class="pt-4 text-white-50 mb-0"><a href="https://cert.gov.lk/5?lang=en&id=3">Privacy policy</a> | <a href="https://cert.gov.lk/5?lang=en&id=4">Disclaimer</a></p>
 			</div>
 		</div>
 	</div>
