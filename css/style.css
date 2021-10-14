@@ -1337,7 +1337,7 @@ Blog
 footer
 -------------------------------*/
 .footer {
-  background: url("../images/bg/footer-bg.jpg") no-repeat;
+  background: linear-gradient(to bottom right, #0b192f, #0e2a58);
   background-image: cover;
   padding-bottom: 35px;
 }
